@@ -42,11 +42,11 @@
             <h2>Weekly Class Exercises</h2>
             <h3>Week 2</h3>
             <ul>
-                <li><a href="var.php">var.php</a></li>
-                <li><a href="var2.php">var2.php</a></li>
-                <li><a href="currency.php">currency.php</a></li>
-                <li><a href="currency-logic.php">currency-logic.php</a></li>
-                <li><a href="heredoc.php">heredoc.php</a></li>
+                <li><a href="weeks/week2/var.php">var.php</a></li>
+                <li><a href="weeks/week2/var2.php">var2.php</a></li>
+                <li><a href="weeks/week2/currency-logic.php">currency-logic.php</a></li>
+                <li><a href="weeks/week2/currency.php">currency.php</a></li>
+                <li><a href="weeks/week2/heredoc.php">heredoc.php</a></li>
             </ul>
             <h3>Week 3</h3>
             <ul>
@@ -96,7 +96,7 @@
                 <li>Copyright &copy;
                     2023</li>
                 <li>All Rights Reserved</li>
-                <li><a href="../index.php">Web Design by Zhan</a></li>
+                <li><a href="">Web Design by Zhan</a></li>
                 <li><a id="html-checker" href="#">HTML Validation</a></li>
                 <li><a id="css-checker" href="#">CSS Validation</a></li>
             </ul>
