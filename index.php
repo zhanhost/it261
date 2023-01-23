@@ -13,8 +13,8 @@
             <h1><a href="index.php">Zhan's Portal Page</a></h1>
             <nav>
                 <ul>
-                    <li><a href="">Switch</a></li>
-                    <li><a href="">Troubleshoot</a></li>
+                    <li><a href="./website/daily.php">Switch</a></li>
+                    <li><a href="troubleshoot.php">Troubleshoot</a></li>
                     <li><a href="">Calendar</a></li>
                     <li><a href="">Email</a></li>
                     <li><a href="">Database</a></li>
