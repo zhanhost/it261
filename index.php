@@ -50,11 +50,11 @@
             </ul>
             <h3>Week 3</h3>
             <ul>
-                <li><a href="if.php">if.php</a></li>
-                <li><a href="date.php">date.php</a></li>
-                <li><a href="forloop.php">forloop.php</a></li>
-                <li><a href="foreach.php">foreach.php</a></li>
-                <li><a href="switch.php">switch.php</a></li>
+                <li><a href="weeks/week3/if.php">if.php</a></li>
+                <li><a href="weeks/week3/date.php">date.php</a></li>
+                <li><a href="weeks/week3/foreach.php">foreach.php</a></li>
+                <li><a href="weeks/week3/forloop.php">forloop.php</a></li>
+                <li><a href="weeks/week3/switch.php">switch.php</a></li>
             </ul>
             <h3>Week 4</h3>
             <ul>
