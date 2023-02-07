@@ -106,7 +106,7 @@
                     document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
             </script>
         </footer>
-    
+     
     </div> <!-- end wrapper -->
 </body>
 </html>
