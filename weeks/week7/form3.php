@@ -50,12 +50,25 @@
             $gender = $_POST['gender'];
         }
 
-        if(empty($_POST['phone'])) {
-            $phone_err = 'Please fill out your phone number';
+        // if(empty($_POST['phone'])) {
+        //     $phone_err = 'Please fill out your phone number';
+        // }
+        // else {
+        //     $phone = $_POST['phone'];
+        // }
+
+        if(empty($_POST['phone'])) { // if empty, type in your number
+            $phone_err = 'Your phone number please!';
         }
-        else {
+        elseif(array_key_exists('phone', $_POST)){
+            if(!preg_match('/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/', $_POST['phone'])) {
+                // if you are not typing the requested format of xxx-xxx-xxxx, display Invalid format
+                $phone_err = 'Invalid format!';
+            }
+            else {
             $phone = $_POST['phone'];
-        }
+            } // end else
+        } // end main if
 
         if(empty($_POST['wines'])) {
             $wines_err = 'What, no wines?';
@@ -123,7 +136,16 @@
                 'From' => 'noreply@mystudentswa.com'
             );
 
-            if(!empty($first_name && $last_name && $email && $gender && $phone && $regions && $wines && $comments)) {
+            if(!empty($first_name &&
+                $last_name &&
+                $email &&
+                $gender &&
+                $phone &&
+                $regions &&
+                $wines &&
+                $comments) &&
+                preg_match('/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/', $_POST['phone'])) {
+
                 mail($to, $subject, $body, $headers);
                 header('location:thx.php');
             }
@@ -138,7 +160,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form 2 in Week 6</title>
+    <title>Form 3 in Week 7 - Phone Validation!</title>
     <link href="css/styles.css" type="text/css" rel="stylesheet">
 </head>
 <body>
@@ -170,7 +192,7 @@
                 <span class="error"><?php echo $gender_err; ?></span>
 
                 <label>Phone</label>
-                <input type="tel" name="phone" value="<?php if (isset($_POST['phone']))
+                <input type="tel" name="phone" placeholder="xxx-xxx-xxxx" value="<?php if (isset($_POST['phone']))
                 echo htmlspecialchars($_POST['phone']); ?>">
                 <span class="error"><?php echo $phone_err; ?></span>
 
