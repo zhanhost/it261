@@ -15,10 +15,10 @@
                 <ul>
                     <li><a href="./website/daily.php">Switch</a></li>
                     <li><a href="troubleshoot.php">Troubleshoot</a></li>
-                    <li><a href="">Calendar</a></li>
+                    <li><a href="calculator.php">Calculator</a></li>
                     <li><a href="">Email</a></li>
                     <li><a href="">Database</a></li>
-                    <li><a href="">Gallery</a></li>
+                    <li><a href="./website/gallery.php">Gallery</a></li>
                 </ul>
             </nav>
         </header>
