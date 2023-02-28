@@ -81,12 +81,14 @@
             </ul>
             <h3>Week 7</h3>
             <ul>
+                <li><a href="weeks/week7/form3.php">form3.php</a></li>
                 <li><a href="weeks/week7/random.php">random.php</a></li>
                 <li><a href="weeks/week7/strings.php">strings.php</a></li>
                 <li><a href="weeks/week7/pictures.php">pictures.php</a></li>
             </ul>
             <h3>Week 8</h3>
             <ul>
+                <li><a href="adminer-4.8.1.php">adminer-4.8.1.php</a></li>
                 <li><a href="weeks/week8/people.php">people.php</a></li>
             </ul>
         </aside>
